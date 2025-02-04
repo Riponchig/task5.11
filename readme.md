@@ -25,16 +25,19 @@
 - CSS3
 - Git и GitHub для контроля версий и хостинга на GitHub.
 
-## Как запустить проект
 
-1. Клонируйте репозиторий на свой локальный компьютер:
-    ```bash
-    git clone https://github.com/yourusername/auto-news.git
-    ```
+## Использованные материалы
 
-2. Откройте файл `index.html` в вашем браузере, чтобы увидеть страницу с новостями.
+### Изображения автомобилей с pixabay
 
-## Лицензия
+- https://pixabay.com/photos/man-automobile-road-retro-7768120/
+- https://pixabay.com/photos/car-auto-4wd-drive-automobile-299772/
+- https://pixabay.com/photos/off-road-4x4-mud-adventure-4294609/
+- https://pixabay.com/photos/offroad-auto-field-the-vehicle-3747184/
+- https://pixabay.com/photos/car-fun-jump-person-summer-601586/
+- https://pixabay.com/photoscar-thunderbird-drive-driving-1957037/
 
+## License
+License: [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/deed.en)
 
 
