@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.db
+*.sqlite
+tmp/
+*.tmp
+package-lock.json
