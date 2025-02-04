@@ -31,7 +31,9 @@ body{
     padding: 6px 15px;
     border-bottom: 1px solid rgb(6, 56, 172);
   }
-  
+  article:nth-child(even) {
+    background-color: #f1f4f7;
+  }
   article a {
     color: rgb(12, 70, 127);
     text-decoration: none;
@@ -45,8 +47,17 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 5px;
   }
-  
+  article:nth-child(-n+2) h2::before {
+    content: "New ";  /* Добавить первым 2 новостям текст NEW*/
+    color:rgb(207, 27, 7);
+  }
+  article p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
   .article-meta {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     color: rgb(0, 5, 10);
     margin-bottom: 5px;
   }
@@ -68,9 +79,10 @@ footer .links {
   }
   
   footer .links > a {
+    font-family: 'Open Sans', sans-serif;
     color: #636b6f;
     padding: 0 25px;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: .1rem;
     text-decoration: none;
@@ -79,6 +91,5 @@ footer .links {
   
   .copyright {
     color: rgb(108, 117, 125);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
   }
-  
